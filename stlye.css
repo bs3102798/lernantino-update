@@ -1,78 +1,81 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(21, 21, 73);
+    background-color: rgb(11, 11, 60);
     color: rgb(46, 46, 47);
     height: 90px;
 }
-
 .brand-title {
     font-size: 3rem;
     background-color: lightgray;
     width: 250px;
     height: 57px;
     text-align: end;
-
 }
-
-
 .navbar-links ul {
     margin: 0;
     padding: 0;
     display: flex;
 }
-
 .navbar-links li {
     list-style: none;
     text-decoration: underline;
 
 }
-
 .navbar-links li a {
     text-decoration: none;
     color: #b9c6ae;
     padding: 1rem;
     display: block;
 }
-
 .title {
+    position: absolute;
     background-color: rgb(21, 21, 73);
     width: 280px;
-    margin-top: 130px;
+    margin-top: 135px;
     margin-left: 75%;
     text-align: center;
-
+    color: #b9c6ae;
 }
-
-
-
 header {
     text-align: left;
     background-color: aquamarine;
-    color: #b9c6ae;
-    padding: 15px;
+    padding: 1px;
     height: 200px;
+}
+section header{
+    width: 170px;
+    height: 100px;
+    margin-top: 150px;
+    text-align: start;
 
 }
-
-
-
-
+.bluezigzag{
+    height: 200px;
+    width: 1415px; 
+}
+.greenbackground{
+    position: absolute;
+    margin-top: 160px;
+    text-align: center;
+    font-size: x-large;
+}
+.underdiscription{
+    margin-top: -20px;
+    text-align: start;
+    font-size: medium;
+}
 main {
     display: flex;
-
 }
-
 aside {
     padding: 1px;
     text-align: end;
@@ -81,62 +84,130 @@ aside {
     justify-content: ed;
     font-size: xxx-large;
     text-align: end;
-
 }
-
 section {
-    width: 555px;
-    height: 610px;
+    color: #b9c6ae;
+    width: 383px;
+    height: 1100px;
     margin-top: 910%;
     margin-left: 2%;
     margin: 0;
     text-align: end;
-    background-color: lightgray;
-
+    background-color:  rgb(21, 21, 73);
 }
-
-.middle {
+section h1{
+    margin-top: 2px;
     font-size: xxx-large;
-    margin-top: 30%;
 }
-
-.right {
-    width: 405px;
-    height: 610px;
-    margin: 0;
-    text-align: end;
-    background-color: lightgray;
+.me{
+    margin-top: -50px;
 }
-
+.Work {
+    font-size: xxx-large;
+    margin-top: 99px;
+}
 fieldset {
-    margin-left: 30%;
+    height: 928PX;
+    width: 500px;
+}
+.displaypics{
+    flex: 4;
+    background-color: fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 
-footer {
-    background-color: lightgray;
+.stockphoto{
+    flex: 2;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color:white;
+    padding: 1px ;
+    flex:  400px;
+    background-color: white;
+    height: 320px;
+    width:200px;
+}
+.topstockphoto{
+    flex: 4;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color:white;
+    padding: 1px ;
+    flex: 0 0 400px;
+    background-color:white;
     height: 250px;
+    width: 1150px;
 }
-
-.tt {
+.centerpicture1{
+    width: 1130px;
+    height: 230px;
+    margin-left: -80%;
+}
+.centerpicture{
+    width: 560px;
+    height: 300px;
+}
+.toppicture{
+    position: absolute;
+    font-size: x-large;
+    margin-top: 100px;
+}
+footer {
+    background-color:  rgb(21, 21, 73);
+    height: 250px;
+    margin-top: 25px;
+}
+.contactme {
+    color: #b9c6ae;
     margin-top: -2%;
     height: 200px;
-    margin-right: -50%;
+    margin-left: -15%;
+    font-weight: 400;
 }
-
-.title2 {
-
-    background-color: lightgray;
+.contactinfo {
+    background-color:  rgb(21, 21, 73);
     width: 980px;
     margin-top: -100px;
     margin-left: 25%;
-
-
     justify-content: space-evenly;
     align-items: center;
-
     height: 9px;
     display: flex;
     list-style: none;
+}
+h3 a{
+    color: #b9c6ae;
+}
+.navbar-links a:hover{
+    color:gray;
+    background-color:rgb(93, 93, 112);
+    border-radius: 40%;
+}
 
+.stockphoto:hover ,.topstockphoto:hover{
+    color: rgb(10, 15, 19);
+    cursor: pointer;
+}
 
+.section:hover{
+    background-color: lightblue;
+}
+
+header:hover{
+    color: #b9c6;
+    cursor: pointer;
+}
+.products:hovor{
+    color: #9c6;
+    
+}
+h3 li :hover{
+    color:gray;
+    border-radius: 40%;
 }
