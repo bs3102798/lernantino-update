@@ -60,7 +60,8 @@ section header{
 }
 .bluezigzag{
     height: 200px;
-    width: 1415px; 
+    width: 1480px; 
+    margin-left: 25px ;
 }
 .greenbackground{
     position: absolute;
