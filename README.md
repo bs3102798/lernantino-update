@@ -9,4 +9,4 @@ The motivation of this project is to creat a useable interface that has  interac
 
 ## Features
 
-Yu are able to hovor over Home, About, Contact Me, and Resume with a circle behind it showing that you are about to click on it. this include the Contact Me area as well. Also when you hover over the main pictures you'll see the words get darker. 
+You are able to hovor over Home, About, Contact Me, and Resume with a circle behind it showing that you are about to click on it. This includes the Contact Me area as well. Also when you hover over the main pictures you'll see the words get darker when it the main photo and words get lighter when you hover the the green boxes. 
