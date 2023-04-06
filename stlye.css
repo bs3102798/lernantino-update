@@ -60,7 +60,8 @@ section header{
 }
 .bluezigzag{
     height: 200px;
-    width: 1290px; 
+    width: 1290px;
+    margin-right: 10px; 
     
 }
 .greenbackground{
